@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw third-party inputs (downloaded by each user)
+data/raw/*
+!data/raw/.gitkeep
+replication/talebjedi2022/source/*
+!replication/talebjedi2022/source/.gitkeep
+
+# Private SM4 material and all machine-generated run artifacts
+private/
+sm4/private/
+sm4/runs/
+sm4/datasets/
+sm4/splits/*.csv
+sm4/**/*.jpg
+sm4/**/*.jpeg
+sm4/**/*.png
+sm4/**/*.tif
+sm4/**/*.tiff
+sm4/**/*.mp4
+sm4/**/*.avi
+sm4/**/*.mov
+sm4/**/*.txt
+!sm4/README.md
+!sm4/**/*.example.txt
+
+# Model weights and large training artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+wandb/
+runs/
+scientific_runs/
+
+# Publisher/manuscript working files and archives
+figures/
+manuscript/
+*.pdf
+*.png
+*.doc
+*.docx
+*.zip
+*.7z
+archive/
+work/
+
+# Local secrets and GitHub tooling
+.env
+.env.*
+!.env.example
+
+# SM4 private-input safeguards (names used by sm4/README commands)
+PRIVATE_MANIFEST*.csv
+PRIVATE_FOLD*.yaml
+weights/
+checkpoints/
+
+# Locally regenerated machine artifacts and row-level outputs (not distributed)
+outputs/
+results/dafd/predictions/*.csv
+results/dafd/sample_equal_recomputed/
+results/dafd/stage2_logo_geometry_metrics.csv
+replication/talebjedi2022/reconstructed/*.csv
+replication/talebjedi2022/audit/published_split_angle_audit.csv
+replication/talebjedi2022/outputs/loao_predictions.csv
+replication/talebjedi2022/outputs/random_predictions.csv

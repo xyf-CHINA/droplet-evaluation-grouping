@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the associated manuscript."
+title: "droplet-evaluation-grouping: Analysis code for evaluation grouping in droplet microfluidics"
+type: software
+authors:
+  - family-names: Xing
+    given-names: Yunfeng
+  - family-names: Tang
+    given-names: Qiang
+abstract: >-
+  Original analysis code, tests, and configuration files supporting analyses
+  of how evaluation grouping affects generalization estimates in machine
+  learning for droplet microfluidics. Aggregate verification artifacts are
+  included under the path-specific rights statements in
+  THIRD_PARTY_NOTICES.md.
+version: 1.1.1
+date-released: "2026-09-05"
+license: MIT
+repository-code: "https://github.com/xyf-CHINA/droplet-evaluation-grouping"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22100497
+    description: "Concept DOI for the collection of all archived versions."
+keywords:
+  - machine learning
+  - droplet microfluidics
+  - grouped evaluation
+  - cross-validation
+  - distribution shift
+preferred-citation:
+  type: article
+  title: "Evaluation Grouping Changes Generalization Estimates and Comparative Model Assessment in Droplet Microfluidics"
+  authors:
+    - family-names: Xing
+      given-names: Yunfeng
+    - family-names: Tang
+      given-names: Qiang
+    - family-names: Liu
+      given-names: Yuwen
+  year: 2026

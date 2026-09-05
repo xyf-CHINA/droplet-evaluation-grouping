@@ -1,0 +1,77 @@
+{
+  "protocol": "talebjedi2022 replication (per PROTOCOL_LOCK.md)",
+  "protocol_R": {
+    "n_splits": 100,
+    "pooled": {
+      "mae": 4.299092991044922,
+      "mape": 4.271890404618022,
+      "rmse": 5.495312224073505,
+      "r2": 0.9607546951800313,
+      "bias": 0.42181862124999836
+    },
+    "run_mean_mae": 4.299092991044922,
+    "run_mean_mape": 4.271890404618023,
+    "run_mean_equals_pooled_mae_mape": true,
+    "exposure_mean_sample_level": 1.0,
+    "exposure_mean_geometry_level": 1.0
+  },
+  "protocol_T": {
+    "pooled": {
+      "mae": 10.45392204790039,
+      "mape": 10.059955114890293,
+      "rmse": 11.1881067824059,
+      "r2": 0.8371535377180339,
+      "bias": 0.9342212396972642
+    },
+    "per_angle": [
+      {
+        "mae": 12.034365041015622,
+        "mape": 10.211436849752364,
+        "rmse": 12.117127682173683,
+        "r2": 0.8039257585860802,
+        "bias": 12.034365041015622,
+        "held_out_angle": 30,
+        "n": 25
+      },
+      {
+        "mae": 12.034233697265627,
+        "mape": 11.513346010969459,
+        "rmse": 12.116895873829176,
+        "r2": 0.8082342197503478,
+        "bias": -12.034233697265627,
+        "held_out_angle": 60,
+        "n": 25
+      },
+      {
+        "mae": 11.713402478515626,
+        "mape": 12.747814243584655,
+        "rmse": 11.838242968355662,
+        "r2": 0.8181317388616843,
+        "bias": -11.713402478515626,
+        "held_out_angle": 90,
+        "n": 25
+      },
+      {
+        "mae": 9.68603802319336,
+        "mape": 9.684226707059327,
+        "rmse": 11.919156480442252,
+        "r2": 0.776998057951032,
+        "bias": 9.582806333740235,
+        "held_out_angle": 120,
+        "n": 25
+      },
+      {
+        "mae": 6.801570999511719,
+        "mape": 6.142951763085667,
+        "rmse": 7.072088107919435,
+        "r2": 0.9186068441964568,
+        "bias": 6.801570999511719,
+        "held_out_angle": 150,
+        "n": 25
+      }
+    ],
+    "angle_overlap_zero_all_folds": true
+  },
+  "pre_locked_verdict": "supportive independent replication",
+  "no_pvalues_no_bootstrap": true
+}

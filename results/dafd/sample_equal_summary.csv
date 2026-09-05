@@ -1,0 +1,3 @@
+protocol,n_rows,n_runs,n_samples,n_geometries,min_appearances,max_appearances,pooled_mae_um,pooled_mape_pct,sample_equal_mae_um,sample_equal_mape_pct
+R,9500,100,474,35,7,32,8.28689127444284,8.13031415073807,8.31999430459443,8.16091082881755
+G,9500,100,474,35,2,53,12.2184360755313,11.7842555650643,11.3466035325326,11.8676271627369

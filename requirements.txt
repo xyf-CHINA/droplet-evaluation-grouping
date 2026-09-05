@@ -1,0 +1,7 @@
+pandas==2.2.3
+numpy==1.26.3
+openpyxl==3.1.5
+scikit-learn==1.6.1
+xgboost==3.4.1
+pdfminer.six==20260107
+pytest==9.1.1

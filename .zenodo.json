@@ -1,0 +1,12 @@
+{
+  "title": "droplet-evaluation-grouping: Analysis code for evaluation grouping in droplet microfluidics",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Xing, Yunfeng"},
+    {"name": "Tang, Qiang"}
+  ],
+  "description": "Scientific analysis code, configurations, tests, and aggregate verification results for evaluation grouping in droplet microfluidics. The package includes post hoc fixed-pipeline comparisons for DAFD, original-observation-equal absolute-error threshold calculations, the targeted Talebjedi random-forest comparison, and the SM4 grouped-evaluation workflow. Published source acquisition and local regeneration instructions are provided. Paper figures, drawing/layout scripts, and manuscript/document builders are outside the package scope. Third-party source data, row-level predictions, per-geometry LOGO metrics, private laboratory videos, annotations, sequence identities, split manifests, and model weights are excluded. The MIT License applies to original code, tests, configurations, and code-oriented documentation only; aggregate materials remain subject to the path-specific rights statements in THIRD_PARTY_NOTICES.md. Version 1.1.1 updates packaging and dependencies while preserving the scientific calculations, model settings, and retained results; it does not represent a new training run.",
+  "license": "MIT",
+  "version": "1.1.1",
+  "keywords": ["droplet microfluidics", "machine learning", "grouped evaluation", "reproducibility"]
+}

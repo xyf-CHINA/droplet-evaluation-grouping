@@ -1,0 +1,40 @@
+{
+  "post_hoc": true,
+  "atol": 1e-10,
+  "rtol": 0,
+  "delta_definition": "MAE_XGB - MAE_RF",
+  "split_descriptive": {
+    "R": {
+      "n_splits": 100,
+      "mean_delta_mae_um": -1.6508437717550717,
+      "median_delta_mae_um": -1.650227378110372,
+      "sd_delta_mae_um": 0.8111086232775597,
+      "min_delta_mae_um": -3.339808366835904,
+      "max_delta_mae_um": 0.8980150155859699,
+      "xgb_lower_count": 96,
+      "rf_lower_count": 4,
+      "numerical_tie_count": 0,
+      "leave_one_split_out_mean_range_um": [
+        -1.676589820112052,
+        -1.6337835233199118
+      ],
+      "top_abs_contribution_shares": {
+        "1": 0.019744895041148847,
+        "5": 0.09114665422520608,
+        "10": 0.17033396508544188
+      }
+    },
+    "T": {
+      "n_splits": 5,
+      "mean_delta_mae_um": 0.6894852079004027,
+      "median_delta_mae_um": -0.5512458014844146,
+      "sd_delta_mae_um": 2.57903133311356,
+      "min_delta_mae_um": -1.6704743189843558,
+      "max_delta_mae_um": 3.571321537265643,
+      "xgb_lower_count": 3,
+      "rf_lower_count": 2,
+      "numerical_tie_count": 0
+    }
+  },
+  "interpretation": "Fixed pipelines; descriptive counts, not win probabilities or causal effects."
+}

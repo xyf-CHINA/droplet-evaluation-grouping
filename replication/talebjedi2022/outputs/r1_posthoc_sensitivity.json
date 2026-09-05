@@ -1,0 +1,94 @@
+{
+  "label": "R1 post hoc descriptive sensitivity (audit-only; no retraining)",
+  "run_mean_equals_pooled": {
+    "asserted_for": [
+      "mae",
+      "mape",
+      "bias"
+    ],
+    "mae": {
+      "run_mean": 4.299092991044922,
+      "pooled": 4.299092991044922,
+      "equal": true
+    },
+    "mape": {
+      "run_mean": 4.271890404618023,
+      "pooled": 4.271890404618022,
+      "equal": true
+    },
+    "bias": {
+      "run_mean": 0.4218186212499983,
+      "pooled": 0.42181862124999836,
+      "equal": true
+    },
+    "rmse_not_asserted": {
+      "run_mean": 5.408421086537695,
+      "pooled": 5.495312224073505
+    },
+    "r2_not_asserted": {
+      "run_mean": 0.9589889803416516,
+      "pooled": 0.9607546951800313
+    },
+    "note": "equal per-run test size (25) makes MAE/MAPE/bias linear means match pooled exactly; RMSE and R2 are nonlinear and must NOT be assumed equal."
+  },
+  "same_angle_table": [
+    {
+      "TiltAngle_deg": 30,
+      "n": 25,
+      "seen_mae": 5.0549,
+      "seen_mape": 4.1283,
+      "unseen_mae": 12.0344,
+      "unseen_mape": 10.2114,
+      "delta_mae_unseen_minus_seen": 6.9795,
+      "delta_mape_unseen_minus_seen": 6.0831
+    },
+    {
+      "TiltAngle_deg": 60,
+      "n": 25,
+      "seen_mae": 3.6671,
+      "seen_mape": 3.529,
+      "unseen_mae": 12.0342,
+      "unseen_mape": 11.5133,
+      "delta_mae_unseen_minus_seen": 8.3671,
+      "delta_mape_unseen_minus_seen": 7.9843
+    },
+    {
+      "TiltAngle_deg": 90,
+      "n": 25,
+      "seen_mae": 5.2578,
+      "seen_mape": 6.5804,
+      "unseen_mae": 11.7134,
+      "unseen_mape": 12.7478,
+      "delta_mae_unseen_minus_seen": 6.4556,
+      "delta_mape_unseen_minus_seen": 6.1674
+    },
+    {
+      "TiltAngle_deg": 120,
+      "n": 25,
+      "seen_mae": 3.4795,
+      "seen_mape": 3.4845,
+      "unseen_mae": 9.686,
+      "unseen_mape": 9.6842,
+      "delta_mae_unseen_minus_seen": 6.2065,
+      "delta_mape_unseen_minus_seen": 6.1997
+    },
+    {
+      "TiltAngle_deg": 150,
+      "n": 25,
+      "seen_mae": 4.2721,
+      "seen_mape": 3.8128,
+      "unseen_mae": 6.8016,
+      "unseen_mape": 6.143,
+      "delta_mae_unseen_minus_seen": 2.5295,
+      "delta_mape_unseen_minus_seen": 2.3302
+    }
+  ],
+  "weighting_sensitivity": {
+    "sample_equal_random_mae": 4.346291817816156,
+    "sample_equal_random_mape": 4.306981745213467,
+    "primary_pooled_random_mae": 4.299092991044922,
+    "primary_pooled_random_mape": 4.271890404618022,
+    "note": "weighting sensitivity only; the 2,500 repeated-prediction pooled values remain the pre-locked primary R metrics."
+  },
+  "no_pvalues_no_bootstrap": true
+}

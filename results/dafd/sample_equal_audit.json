@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "analysis_role": "post hoc descriptive sample-equal sensitivity analysis",
+  "aggregation_order": "prediction-level AE/APE -> within-sample mean AE/APE -> equal-weight mean over 474 samples",
+  "tolerance": 1e-10,
+  "input_sha256": {
+    "R": "785003573283D2247715B386015B1BECF64D39B9F0C8F179FC608B02B6E98E58",
+    "G": "A14C085C655C27BA35B80BA440F2DCD52E52DF798B2C3CE0A9CADBF279150BF8"
+  },
+  "protocols": {
+    "R": {
+      "rows": 9500,
+      "runs": 100,
+      "samples": 474,
+      "geometries": 35,
+      "min_appearances": 7,
+      "max_appearances": 32,
+      "pooled_mae_um": 8.286891274442839,
+      "pooled_mape_pct": 8.130314150738073,
+      "sample_equal_mae_um": 8.319994304594433,
+      "sample_equal_mape_pct": 8.160910828817546,
+      "max_stored_ae_discrepancy": 5.684341886080802e-14,
+      "max_stored_ape_discrepancy": 3.552713678800501e-14,
+      "path_b_sample_equal_mae_um": 8.319994304594433,
+      "path_b_sample_equal_mape_pct": 8.160910828817546,
+      "max_A_B_sample_ae_discrepancy": 7.105427357601002e-15,
+      "max_A_B_sample_ape_discrepancy": 3.552713678800501e-15,
+      "A_B_aggregate_mae_discrepancy": 0.0,
+      "A_B_aggregate_mape_discrepancy": 0.0
+    },
+    "G": {
+      "rows": 9500,
+      "runs": 100,
+      "samples": 474,
+      "geometries": 35,
+      "min_appearances": 2,
+      "max_appearances": 53,
+      "pooled_mae_um": 12.218436075531315,
+      "pooled_mape_pct": 11.78425556506426,
+      "sample_equal_mae_um": 11.346603532532605,
+      "sample_equal_mape_pct": 11.867627162736854,
+      "max_stored_ae_discrepancy": 5.684341886080802e-14,
+      "max_stored_ape_discrepancy": 3.552713678800501e-14,
+      "path_b_sample_equal_mae_um": 11.346603532532605,
+      "path_b_sample_equal_mape_pct": 11.867627162736856,
+      "max_A_B_sample_ae_discrepancy": 7.105427357601002e-15,
+      "max_A_B_sample_ape_discrepancy": 7.105427357601002e-15,
+      "A_B_aggregate_mae_discrepancy": 0.0,
+      "A_B_aggregate_mape_discrepancy": 1.7763568394002505e-15
+    }
+  },
+  "contrasts": {
+    "sample_equal_mae_difference_um_G_minus_R": 3.026609227938172,
+    "sample_equal_mae_relative_increase_pct": 36.37753966089652,
+    "sample_equal_mape_difference_pp_G_minus_R": 3.7067163339193083,
+    "sample_equal_mape_relative_increase_pct": 45.42037539278423
+  }
+}

@@ -1,0 +1,63 @@
+workflow: SM4_sequence_grouped_video_detection
+release_scope: workflow_and_aggregate_results_without_source_video_data
+record_type: frozen_provenance_record
+consumed_directly_by_public_scripts: false
+dataset:
+  final_frames: 1000
+  acquisition_sequences: 17
+  classes: 2
+partition:
+  folds: 5
+  frame_wise_protocol: F
+  sequence_isolated_protocol: V
+  random_seed: 0
+model:
+  implementation: ultralytics/yolov5
+  release: v7.0
+  commit: 915bbf294bb74c859f0b41f1c23bc395014ea679
+  architecture: yolov5s
+  initialization: official yolov5s.pt
+training:
+  image_size: 960
+  epochs: 150
+  batch_size: 6
+  optimizer: SGD
+  seed: 0
+  deterministic: true
+  initial_learning_rate: 0.005
+  cosine_learning_rate: true
+  weight_decay: 0.0005
+  rotation_degrees: 5.0
+  hyperparameters_file: configs/sm4_hyperparameters.yaml
+  workers_requested: 8
+  workers_effective: 6
+  workers_effective_note: capped_by_yolov5_to_min_cpu_per_rank_batch_size_and_requested_workers
+  validation_during_training: false
+  outer_fold_validation_used_for_model_selection: false
+  checkpoint_used_for_evaluation: last.pt
+  automatic_mixed_precision: true
+  resume: false
+  cache_images: false
+  rectangular_training: false
+  multi_scale: false
+  synchronized_batch_norm: false
+  autoanchor: true
+  patience: 100
+  save_period: -1
+evaluation:
+  image_size: 960
+  batch_size: 6
+  precision: FP32
+  confidence_threshold: 0.001
+  iou_threshold: 0.6
+  max_detections: 300
+  workers_requested: 8
+  workers_effective: 6
+  workers_effective_note: capped_by_yolov5_to_min_cpu_per_rank_batch_size_and_requested_workers
+  metrics:
+    - mAP50
+    - mAP50_95
+  aggregation: mean_and_sample_standard_deviation_over_five_folds
+execution_environment:
+  PIN_MEMORY: "false"
+  pin_memory_scope: training_and_evaluation_for_all_F_and_V_runs

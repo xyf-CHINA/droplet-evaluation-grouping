@@ -1,0 +1,706 @@
+{
+  "per_seed": [
+    {
+      "seed": 0,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 1,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 2,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 3,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 4,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 5,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 6,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 7,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 8,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 9,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 10,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 11,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 12,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 13,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 14,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 15,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 16,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 17,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 18,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 19,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 20,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 21,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 22,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 23,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 24,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 25,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 26,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 27,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 28,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 29,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 30,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 31,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 32,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 33,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 34,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 35,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 36,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 37,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 38,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 39,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 40,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 41,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 42,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 43,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 44,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 45,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 46,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 47,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 48,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 49,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 50,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 51,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 52,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 53,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 54,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 55,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 56,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 57,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 58,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 59,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 60,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 61,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 62,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 63,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 64,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 65,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 66,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 67,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 68,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 69,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 70,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 71,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 72,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 73,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 74,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 75,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 76,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 77,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 78,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 79,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 80,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 81,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 82,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 83,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 84,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 85,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 86,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 87,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 4,
+      "n_test_angles": 4
+    },
+    {
+      "seed": 88,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 89,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 90,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 91,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 4,
+      "n_test_angles": 4
+    },
+    {
+      "seed": 92,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 93,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 94,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 95,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 96,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 97,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 98,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    },
+    {
+      "seed": 99,
+      "sample_level_exposure": 1.0,
+      "geometry_level_exposure": 1.0,
+      "n_test_angles_seen": 5,
+      "n_test_angles": 5
+    }
+  ],
+  "summary": 1.0,
+  "note": "computed from split assignments before any fit"
+}

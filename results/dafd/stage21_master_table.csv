@@ -1,0 +1,17 @@
+analysis,metric,random_or_seen,geometry_unseen,change
+Repeated exact-size holdout (Protocol R vs G),MAE (um),8.286891274442839,12.218436075531313,+47.4%
+Repeated exact-size holdout (Protocol R vs G),RMSE (um),12.560531570542823,17.242766676711078,+37.3%
+Repeated exact-size holdout (Protocol R vs G),R2,0.9123727628151208,0.8502140592970221,-0.0622 (absolute dR2)
+Repeated exact-size holdout (Protocol R vs G),MAPE (%),8.130314150738075,11.78425556506426,+44.9%
+GroupKFold pooled,MAE (um),,11.398588613915017,
+GroupKFold pooled,RMSE (um),,16.344504163527798,
+GroupKFold pooled,R2,,0.8530727617693932,
+GroupKFold pooled,MAPE (%),,12.094641075622862,
+LOGO micro,MAE (um),,11.284855017775827,
+LOGO micro,RMSE (um),,16.25034682170683,
+LOGO micro,R2,,0.8547607212000226,
+LOGO micro,MAPE (%),,12.051519622632554,
+32-geometry paired (macro),MAE (um),9.445801156509052,12.429522222443154,+2.98 um (+31.6%)
+32-geometry paired (macro),MAPE (%),8.631401879306027,12.273887844643083,+3.64 pp
+Excluding hardest 1 (sensitivity),MAE (um),9.228983230468486,11.959724592656002,+2.73 um (+29.6%)
+Excluding hardest 3 (sensitivity),MAE (um),8.979045450529464,11.038830256108547,+2.06 um (+22.9%)

@@ -1,0 +1,59 @@
+{
+  "threshold_count": 19001,
+  "units": "micrometers",
+  "difference_definition": "F_R - F_G",
+  "post_hoc": true,
+  "protocols": {
+    "R": {
+      "quantiles_um": {
+        "p50": 4.991509459813443,
+        "p90": 20.485641763592014,
+        "p95": 27.644622046152747,
+        "p99": 45.705103361606604
+      },
+      "max_error_um": 81.13410473704337,
+      "min_error_um": 0.0009400669304113762,
+      "sample_equal_MAE_um": 8.319994304594433,
+      "survival_integral_um": 8.3199943045902,
+      "distinct_error_count": 9500,
+      "largest_repeated_error_count": 1
+    },
+    "G": {
+      "quantiles_um": {
+        "p50": 7.757570171356207,
+        "p90": 25.656539586782458,
+        "p95": 33.88975568362645,
+        "p99": 53.92351904460362
+      },
+      "max_error_um": 91.55656387329103,
+      "min_error_um": 0.0005104494094823053,
+      "sample_equal_MAE_um": 11.346603532532605,
+      "survival_integral_um": 11.346603532531963,
+      "distinct_error_count": 9500,
+      "largest_repeated_error_count": 1
+    }
+  },
+  "maximum_observed_gap": {
+    "threshold_um": 6.390177321434024,
+    "R_fraction": 0.5805637383243457,
+    "G_fraction": 0.43234840414908826,
+    "difference": 0.14821533417525745
+  },
+  "minimum_observed_gap": {
+    "threshold_um": 0.0005104494094823053,
+    "R_fraction": 0.0,
+    "G_fraction": 0.00035161744022503517,
+    "difference": -0.00035161744022503517
+  },
+  "sign_changes": [
+    {
+      "previous_nonzero_threshold_um": 0.009582530260090039,
+      "threshold_um": 0.009885283708570114,
+      "from": -1,
+      "to": 1
+    }
+  ],
+  "full_upper_um": 91.55656387329103,
+  "both_equal_one_from_um": 91.55656387329103,
+  "note": "The maximum gap is a descriptive extremum, not an application tolerance or deployment success rate."
+}

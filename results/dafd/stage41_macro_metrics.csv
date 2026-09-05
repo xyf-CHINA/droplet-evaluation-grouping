@@ -1,0 +1,7 @@
+metric,value
+micro_mae,12.26067085559642
+micro_mape_pct,11.323933036446423
+macro_source_mae,12.79420912297326
+macro_source_mape_pct,13.139663279434822
+macro_geometry_mae,11.040054601647476
+macro_geometry_mape_pct,10.889964492320935
