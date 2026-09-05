@@ -157,11 +157,12 @@ The reported analyses used YOLOv5 v7.0 at commit
 Citation metadata are provided in `CITATION.cff`. Cite the software as
 Xing, Y. and Tang, Q., *droplet-evaluation-grouping*, version 1.1.1,
 [GitHub repository](https://github.com/xyf-CHINA/droplet-evaluation-grouping),
+archived at [10.5281/zenodo.22344449](https://doi.org/10.5281/zenodo.22344449),
 and cite the associated manuscript when using its scientific results.
 
 The [concept DOI](https://doi.org/10.5281/zenodo.22100497) identifies the
-collection of all archived versions. A version-specific DOI for v1.1.1 will
-be added after archival publication.
+collection of archived versions. The version-specific DOI above identifies
+the verified v1.1.1 code archive.
 
 ## License
 
